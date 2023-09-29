@@ -28,7 +28,7 @@ try {
     //Recipients
     $mail->setFrom('your-email-address(from)', 'your-name');
     $mail->addAddress('your-client-email-address(to)');     //Add a recipient
-    // $mail->addAddress('iammdahanaf@gmail.com');               //Name is optional
+                  
     $mail->addReplyTo('your-email-address(from)', 'your-name');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
